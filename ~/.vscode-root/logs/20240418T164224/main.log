@@ -1,0 +1,26 @@
+2024-04-18 16:42:24.724 [info] update#setState idle
+2024-04-18 16:42:54.628 [info] update#setState checking for updates
+2024-04-18 16:42:54.629 [info] update#setState idle
+2024-04-18 17:42:54.630 [info] update#setState checking for updates
+2024-04-18 17:42:54.635 [info] update#setState idle
+2024-04-18 18:42:54.636 [info] update#setState checking for updates
+2024-04-18 18:42:54.642 [info] update#setState idle
+2024-04-18 19:42:54.643 [info] update#setState checking for updates
+2024-04-18 19:42:54.644 [info] update#setState idle
+2024-04-18 20:42:54.644 [info] update#setState checking for updates
+2024-04-18 20:42:54.645 [info] update#setState idle
+2024-04-18 21:42:54.652 [info] update#setState checking for updates
+2024-04-18 21:42:54.660 [info] update#setState idle
+2024-04-18 22:42:54.662 [info] update#setState checking for updates
+2024-04-18 22:42:54.666 [info] update#setState idle
+2024-04-18 23:38:52.767 [warning] [perf] profiling STARTED 5c81b5ea-f23b-4882-8ea6-e098111c8603
+2024-04-18 23:38:57.819 [warning] [perf] profiling DONE 5c81b5ea-f23b-4882-8ea6-e098111c8603
+2024-04-18 23:38:58.092 [warning] [perf] profiling STARTED 5c81b5ea-f23b-4882-8ea6-e098111c8603
+2024-04-18 23:39:03.117 [warning] [perf] profiling DONE 5c81b5ea-f23b-4882-8ea6-e098111c8603
+2024-04-18 23:39:03.326 [warning] [perf] profiling STARTED 5c81b5ea-f23b-4882-8ea6-e098111c8603
+2024-04-18 23:39:08.345 [warning] [perf] profiling DONE 5c81b5ea-f23b-4882-8ea6-e098111c8603
+2024-04-18 23:42:54.670 [info] update#setState checking for updates
+2024-04-18 23:42:54.677 [info] update#setState idle
+2024-04-19 00:42:54.674 [info] update#setState checking for updates
+2024-04-19 00:42:54.674 [info] update#setState idle
+2024-04-19 01:03:45.042 [info] Extension host with pid 19448 exited with code: 0, signal: unknown.

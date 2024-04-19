@@ -1,0 +1,14 @@
+2024-04-18 16:42:26.235 [info] Started local extension host with pid 19448.
+2024-04-18 16:42:29.211 [info] [perf] Render performance baseline is 22ms
+2024-04-18 17:23:44.119 [error] Cancelled: Canceled
+    at _.B (vscode-file://vscode-app/snap/code/157/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:785:28974)
+    at async _.z (vscode-file://vscode-app/snap/code/157/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:785:25774)
+    at async Z (vscode-file://vscode-app/snap/code/157/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:785:24704)
+    at async _.query (vscode-file://vscode-app/snap/code/157/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:785:25002)
+    at async oe.queryGallery (vscode-file://vscode-app/snap/code/157/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2909:13350)
+    at async Te.Hc (vscode-file://vscode-app/snap/code/157/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2845:23086)
+    at async Te.rc (vscode-file://vscode-app/snap/code/157/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2845:14713)
+    at async vscode-file://vscode-app/snap/code/157/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2845:13012
+2024-04-18 17:23:54.998 [error] [sidthesloth.html5-boilerplate]: Unknown language in `contributes.html5-boilerplate.language`. Provided value: njk
+2024-04-18 17:23:54.999 [error] [sidthesloth.html5-boilerplate]: Unknown language in `contributes.html5-boilerplate.language`. Provided value: django-html
+2024-04-18 23:38:51.614 [warning] [perf] Renderer reported VERY LONG TASK (270ms), starting profiling session '5c81b5ea-f23b-4882-8ea6-e098111c8603'
