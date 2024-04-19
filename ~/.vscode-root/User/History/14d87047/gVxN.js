@@ -9,8 +9,7 @@ import BlogList from "./BlogList";
   ]);
 
   const handleDelete = (id) => {
-    const newBlogs = blogs.filter(blog => blog.id !== id);
-    setBlogs(newBlogs);
+    const newBlogs = 
   };
 
   return (

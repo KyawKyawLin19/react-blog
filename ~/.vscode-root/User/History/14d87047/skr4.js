@@ -15,7 +15,7 @@ import BlogList from "./BlogList";
 
   return (
     <div className="home">
-      <BlogList blogs={blogs} title="All Blogs" handleDelete={handleDelete}/>
+      <BlogList blogs={blogs} title="All Blogs" handleDelete = {handleDelete} />
       {/* <BlogList blogs={ blogs.filter((blog)=>blog.author==="mario") } title="Mario's Blogs" /> */}
     </div>
   );
