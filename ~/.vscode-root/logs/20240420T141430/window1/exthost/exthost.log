@@ -12,3 +12,75 @@
 2024-04-20 14:14:32.452 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
 2024-04-20 16:35:07.741 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
 2024-04-20 16:35:07.776 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'
+2024-04-20 17:11:17.461 [info] Extension host terminating: renderer closed the MessagePort
+2024-04-20 17:11:17.517 [error] Canceled: Canceled
+    at new O (/snap/code/157/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:142:46998)
+    at u.U (/snap/code/157/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:149:5539)
+    at Proxy.F.<computed>.T.charCodeAt.F.<computed> (/snap/code/157/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:149:2993)
+    at d.g (/snap/code/157/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:152:186335)
+    at d.executeCommand (/snap/code/157/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:152:185773)
+    at E.registerCommand.description (/snap/code/157/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:152:185097)
+    at d.h (/snap/code/157/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:152:186874)
+    at d.g (/snap/code/157/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:152:185866)
+    at d.executeCommand (/snap/code/157/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:152:185773)
+    at Object.executeCommand (/snap/code/157/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:162:22785)
+    at o.O [as value] (/snap/code/157/usr/share/code/resources/app/extensions/git/dist/main.js:2:945802)
+    at s.y (/snap/code/157/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:82:659)
+    at s.z (/snap/code/157/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:82:729)
+    at s.fire (/snap/code/157/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:82:945)
+    at Object.m [as dispose] (/snap/code/157/usr/share/code/resources/app/extensions/git/dist/main.js:2:964886)
+    at /snap/code/157/usr/share/code/resources/app/extensions/git/dist/main.js:2:970920
+    at Array.forEach (<anonymous>)
+    at f.dispose (/snap/code/157/usr/share/code/resources/app/extensions/git/dist/main.js:2:970906)
+    at a.<anonymous> (/snap/code/157/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:3830)
+    at a.dispose (/snap/code/157/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:3927)
+    at a.<anonymous> (/snap/code/157/usr/share/code/resources/app/extensions/git/dist/main.js:2:948059)
+    at a.dispose (/snap/code/157/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:3927)
+    at o (/snap/code/157/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:30:714)
+    at m.eb (/snap/code/157/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:158:9967)
+    at /snap/code/157/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:158:7816
+    at Array.map (<anonymous>)
+    at m.$ (/snap/code/157/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:158:7803)
+    at m.terminate (/snap/code/157/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:158:8077)
+    at o.terminate (/snap/code/157/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:162:1513)
+    at t (/snap/code/157/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:175:9917)
+    at MessagePortMain.<anonymous> (/snap/code/157/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:175:6342)
+    at MessagePortMain.emit (node:events:517:28)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2285) setContext undefined
+2024-04-20 17:11:17.518 [error] Canceled: Canceled
+    at new O (/snap/code/157/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:142:46998)
+    at u.U (/snap/code/157/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:149:5539)
+    at Proxy.F.<computed>.T.charCodeAt.F.<computed> (/snap/code/157/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:149:2993)
+    at d.g (/snap/code/157/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:152:186335)
+    at d.executeCommand (/snap/code/157/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:152:185773)
+    at E.registerCommand.description (/snap/code/157/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:152:185097)
+    at d.h (/snap/code/157/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:152:186874)
+    at d.g (/snap/code/157/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:152:185866)
+    at d.executeCommand (/snap/code/157/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:152:185773)
+    at Object.executeCommand (/snap/code/157/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:162:22785)
+    at a.VscodeDevShareProvider.set hasGitHubRepositories [as hasGitHubRepositories] (/snap/code/157/usr/share/code/resources/app/extensions/github/dist/extension.js:2:324866)
+    at /snap/code/157/usr/share/code/resources/app/extensions/github/dist/extension.js:2:325825
+    at o.value (/snap/code/157/usr/share/code/resources/app/extensions/git/dist/main.js:2:1051703)
+    at s.y (/snap/code/157/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:82:659)
+    at s.z (/snap/code/157/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:82:729)
+    at s.fire (/snap/code/157/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:82:945)
+    at Object.m [as dispose] (/snap/code/157/usr/share/code/resources/app/extensions/git/dist/main.js:2:964886)
+    at /snap/code/157/usr/share/code/resources/app/extensions/git/dist/main.js:2:970920
+    at Array.forEach (<anonymous>)
+    at f.dispose (/snap/code/157/usr/share/code/resources/app/extensions/git/dist/main.js:2:970906)
+    at a.<anonymous> (/snap/code/157/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:3830)
+    at a.dispose (/snap/code/157/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:3927)
+    at a.<anonymous> (/snap/code/157/usr/share/code/resources/app/extensions/git/dist/main.js:2:948059)
+    at a.dispose (/snap/code/157/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:3927)
+    at o (/snap/code/157/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:30:714)
+    at m.eb (/snap/code/157/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:158:9967)
+    at /snap/code/157/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:158:7816
+    at Array.map (<anonymous>)
+    at m.$ (/snap/code/157/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:158:7803)
+    at m.terminate (/snap/code/157/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:158:8077)
+    at o.terminate (/snap/code/157/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:162:1513)
+    at t (/snap/code/157/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:175:9917)
+    at MessagePortMain.<anonymous> (/snap/code/157/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:175:6342)
+    at MessagePortMain.emit (node:events:517:28)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2285) setContext undefined
+2024-04-20 17:11:17.519 [info] Extension host with pid 5560 exiting with code 0
