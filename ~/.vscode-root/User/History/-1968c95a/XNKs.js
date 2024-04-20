@@ -1,5 +1,4 @@
-// const BlogList = ({ blogs, title, handleDelete}) => {
-  const BlogList = ({ blogs, title}) => {
+const BlogList = ({ blogs, title, handleDelete}) => {
     // const blogs = props.blogs;
     // const title = props.title;
     // console.log(blogs);
