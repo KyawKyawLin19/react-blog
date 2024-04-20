@@ -1,0 +1,4 @@
+2024-04-20 14:14:31.090 [info] Started local extension host with pid 5560.
+2024-04-20 14:14:32.035 [error] [sidthesloth.html5-boilerplate]: Unknown language in `contributes.html5-boilerplate.language`. Provided value: njk
+2024-04-20 14:14:32.036 [error] [sidthesloth.html5-boilerplate]: Unknown language in `contributes.html5-boilerplate.language`. Provided value: django-html
+2024-04-20 14:14:33.861 [info] [perf] Render performance baseline is 43ms

@@ -130,13 +130,6 @@
                         "submenu": {
                             "items": [
                                 {
-                                    "id": "github.copyVscodeDevLinkFile",
-                                    "label": "Copy vscode.dev Link"
-                                },
-                                {
-                                    "id": "vscode.menubar.separator"
-                                },
-                                {
                                     "id": "workbench.profiles.actions.exportProfile",
                                     "label": "Export Profile (Default)..."
                                 },
@@ -1730,10 +1723,10 @@
             "folder": "file:///home/kyawkyawlin/React_Projects/react-blog",
             "backupPath": "/home/kyawkyawlin/React_Projects/react-blog/~/.vscode-root/Backups/c7837a78d35fadcf74018460b15cdafe",
             "uiState": {
-                "mode": 1,
-                "x": 70,
+                "mode": 0,
+                "x": 995,
                 "y": 64,
-                "width": 1850,
+                "width": 925,
                 "height": 1016
             }
         },

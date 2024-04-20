@@ -14,8 +14,7 @@ import BlogList from "./BlogList";
   };
 
   useEffect(() => {
-    console.log("use effect ran");
-    console.log(blogs);
+    
   });
 
   return (
