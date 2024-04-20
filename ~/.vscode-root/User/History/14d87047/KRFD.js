@@ -13,7 +13,7 @@ const Home = () => {
 
   useEffect(() => {
     setTimeout(() => {
-      fetch("http://localhost:8000/blogs")
+      fetch("http://localhost:8000/blogss")
       .then(res => {
         if(!res.ok) {
           throw Error('Could not fetch the data for that resource')
@@ -23,11 +23,9 @@ const Home = () => {
       .then((data) => {
         setBlogs(data);
         setIsPending(false);
-        setError(null);
       })
       .catch((e) => {
-        setIsPending(false);
-        setError(e.message);
+        console.log(e.message);
       })
     }, 1000);
   }, []);
@@ -35,7 +33,6 @@ const Home = () => {
   return (
     <div className="home">
       {/* { blogs && <BlogList blogs={blogs} title="All Blogs" handleDelete={handleDelete} /> } */}
-      { error && <p>{ error }</p>}
       { isPending && <p>Loading...</p>  }
       { blogs && <BlogList blogs={blogs} title="All Blogs"/> }
     </div>
